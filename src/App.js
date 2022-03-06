@@ -1,8 +1,58 @@
+import  NavBar  from "./components/NavBar";
+
 function App() {
   return (
-    <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+<div className="gradient-bg-welcome min-h-screen">
+  <NavBar />
+  <div className="pt-12 flex flex-col justify-center items-center">
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  <p className="text-gray-700">placeholder for main area</p>
+  </div>
+</div>
+
   );
 }
 
