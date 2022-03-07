@@ -1,7 +1,10 @@
+import {
+  NavLink,
+} from "react-router-dom";
 import logo from "../assets/logo192.png";
 
-const NavBarItem = ({ title, classProps }) => (
-  <li className={`mx-4 cursor-pointer ${classProps}`}>{title}</li>
+const NavBarItem = ({ title, classProps,to }) => (
+  <NavLink className={({isActive})=>isActive?`mx-4 text-red-500 font-bold cursor-pointer hover:text-red-400 ${classProps}`:`mx-4 cursor-pointer font-bold hover:text-gray-500 ${classProps}`} to={to}>{title}</NavLink>
 );
 
 
@@ -16,7 +19,7 @@ export default function NavBar(){
       </div>
       <ul className="text-white flex list-none flex-row justify-between items-center flex-initial">
         {links.map((item, index) => (
-          <NavBarItem key={item + index} title={item} />
+          <NavBarItem key={item + index} title={item} to={item.toLowerCase()}/>
         ))}
       </ul>
     </nav>
