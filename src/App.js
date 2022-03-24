@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <div className="gradient-bg-welcome min-h-screen">
         <NavBar />
-        <div className="pt-12 flex justify-center items-center h-screen">
+        <div className="pt-12 flex justify-center items-center ">
           <Routes>
             <Route path="/" element={<Navigate to="home" />} />
             <Route path="home" element={<HomePage />} />
