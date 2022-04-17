@@ -13,7 +13,8 @@ const links = ["Home", "Announcements", "Results", "Leave"];
 export default function NavBar(){
 
   return (
-    <nav className="fixed w-full h-12 z-10 flex justify-center  items-center p-4">
+    <>
+    <nav className="w-full h-12 flex justify-center  items-center pt-4">
       <div className="flex-[0.5] justify-center items-center">
         <img src={logo} alt="logo" className="w-6 cursor-pointer" />
       </div>
@@ -23,6 +24,9 @@ export default function NavBar(){
         ))}
       </ul>
     </nav>
+    <br/>
+    <hr />
+    </>
   );
 };
 

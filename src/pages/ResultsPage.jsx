@@ -4,7 +4,7 @@ import AppInput from "../components/AppInput";
 export default function ResultsPage() {
   return (
     <>
-      <div className="h-screen flex items-center justify-center">
+      <div className="pt-16">
         <div className="min-h-1/2 bg-gray-900  border border-gray-900 rounded-2xl">
           <div className="mx-4 sm:mx-24 md:mx-34 lg:mx-56  flex items-center space-y-4 py-16 font-semibold text-gray-500 flex-col">
             <svg

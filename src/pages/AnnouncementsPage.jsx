@@ -2,7 +2,7 @@ import AnnouncementCard from "../components/AnnouncementCard";
 
 export default function AnnouncementsPage() {
   return (
-    <div className="flex mt-5 flex-col items-center justify-center">
+   <div className="min-h-screen grid justify-center md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-7 my-10">
       <AnnouncementCard
         onTitleClick={() => console.log("clicked")}
         publisher_name="name"
