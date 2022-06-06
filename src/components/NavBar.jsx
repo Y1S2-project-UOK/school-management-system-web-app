@@ -8,7 +8,7 @@ const NavBarItem = ({ title, classProps,to }) => (
 );
 
 
-const links = ["Home", "Announcements", "Results", "Leave"];
+const links = ["Home", "Announcements", "Results"];
 
 export default function NavBar(){
 
