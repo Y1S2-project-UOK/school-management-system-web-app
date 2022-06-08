@@ -13,7 +13,7 @@ export default function AnnouncementCard({
         <div className="py-3 px-6 text-left border-b text-white border-gray-300">
           {publisher_name?"publisher : "+publisher_name:null}<br/>
           {venue?"venue : "+venue:null}<br/>
-          {publish_date?"date : "+publish_date:null}
+          {/* {publish_date?"date : "+publish_date:null} */}
         </div>
         <div className="p-6">
           <h5 className="text-white text-left text-xl font-medium mb-2">

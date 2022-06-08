@@ -22,7 +22,11 @@ export default function AnnouncementsPage() {
   }, []);
 
   if (error) {
-    return <div className="pt-20">Error: {error}</div>;
+    return(
+      <div className="text-white p-6 mt-20 bg-red-600">
+        <h1>{error.message}</h1>
+      </div>
+    ) 
   } else if (isLoaded) {
     return (
       <div className="pt-20">

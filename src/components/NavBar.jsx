@@ -1,7 +1,7 @@
 import {
   NavLink,
 } from "react-router-dom";
-import logo from "../assets/logo192.png";
+import logo from "../assets/logo.png";
 
 const NavBarItem = ({ title, classProps,to }) => (
   <NavLink className={({isActive})=>isActive?`mx-4 text-red-500 font-bold cursor-pointer hover:text-red-400 ${classProps}`:`mx-4 cursor-pointer font-bold hover:text-gray-500 ${classProps}`} to={to}>{title}</NavLink>
